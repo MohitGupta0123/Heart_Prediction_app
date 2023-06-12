@@ -4,7 +4,7 @@ import pickle
 from PIL import Image
 
 # Load the trained ML model
-model = pickle.load(open("heart_disease_model.pkl", "rb"))
+model = pickle.load(open("heart_disease_prediction.pkl", "rb"))
 
 # Define the function to predict heart disease
 def predict_heart_disease(age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal):
