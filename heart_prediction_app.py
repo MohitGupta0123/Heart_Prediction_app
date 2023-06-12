@@ -16,14 +16,14 @@ def predict_heart_disease(age, sex, cp, trestbps, chol, fbs, restecg, thalach, e
     return prediction[0]
 
 # Set pink background color
-page_bg_img = '''
+page_bg_img = 
 <style>
 body {
 background-image: url("https://cdn.pixabay.com/photo/2018/04/24/07/48/pink-3345632_960_720.png");
 background-size: cover;
 }
 </style>
-'''
+
 
 # Create a Streamlit web app
 def main():
